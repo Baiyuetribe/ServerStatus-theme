@@ -4,7 +4,7 @@ MAINTAINER Baiyuetribe
 
 RUN apt-get update
 RUN apt-get -y install gcc g++ make git
-RUN git clone https://github.com/Baiyuetribe/ServerStatus
+RUN git clone https://github.com/Baiyuetribe/ServerStatus-theme
 RUN cp -rf /ServerStatus/web/* /usr/share/nginx/html/
 
 
