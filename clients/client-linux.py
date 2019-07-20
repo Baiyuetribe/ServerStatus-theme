@@ -4,10 +4,10 @@
 # 支持操作系统： Linux, OSX, FreeBSD, OpenBSD and NetBSD, both 32-bit and 64-bit architectures
 
 
-SERVER = "127.0.0.1"
-PORT = 2522
-USER = "USER" 
-PASSWORD = "USER_PASSWORD"
+SERVER = "${SERVER}"
+PORT = ${PORT}
+USER = "${USER}" 
+PASSWORD = "${PASSWORD}"
 INTERVAL = 1 #更新间隔
 
 

@@ -3,42 +3,42 @@
 		{
 			"username": "node01",
 			"host": "IPLC 专线",			
-			"type": "备注说明：主服务器",
+			"type": "KVM",
 			"name": "Secret",
-			"location": "Nowhere",
+			"location": "中国",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
 			"username": "node02",
 			"host": "HKT 节点",			
-			"type": "备注说明：XXXX",
+			"type": "KVM",
 			"name": "Secret",
-			"location": "Nowhere",
+			"location": "圣何塞",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
 			"disabled": true,
 			"username": "node03",
 			"host": "HKBN 节点",			
-			"type": "XXXX",
+			"type": "KVM",
 			"name": "Secret",
-			"location": "Nowhere",
+			"location": "香港",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
 			"username": "node02",
 			"host": "GIA 节点",			
-			"type": "XXX",
+			"type": "KVM",
 			"name": "Secret",
-			"location": "Nowhere",
+			"location": "西伯利亚",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},		
 		{
 			"username": "node04",
 			"host": "PCCW 节点",			
-			"type": "XXX",
+			"type": "KVM",
 			"name": "Secret",
-			"location": "Nowhere",
+			"location": "香港",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		}
 	]
