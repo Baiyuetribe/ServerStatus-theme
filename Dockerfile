@@ -6,7 +6,7 @@ ARG SOURCE=https://github.com/91yun/ServerStatus
 
 RUN apt update && apt-get install --no-install-recommends --no-install-suggests -y \
     gcc g++ make git \
-    && git clone ${SOURCE} \
+    && git clone -b dev ${SOURCE} \
     && cp -rf /ServerStatus/web/* /usr/share/nginx/html/ \
     && rm -rf /ServerStatus/clients/* \
     && cd /ServerStatus/server && make \
