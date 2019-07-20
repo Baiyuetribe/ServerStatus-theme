@@ -1,4 +1,2 @@
 default.sublime-workspace
-
-# pycharm
-.idea
+.DS_Store

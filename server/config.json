@@ -1,40 +1,37 @@
 {"servers":
 	[
 		{
-			"username": "s01",
-			"password": "password",
-			"name": "Mainserver 1",
-			"type": "Dedicated Server",
-			"host": "No",
-			"location": "Austria",
-			"disabled": false
+			"username": "node01",
+			"name": "IPLC 节点",
+			"type": "类型",
+			"host": "主机",
+			"location": "China",
+			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
-			"username": "bs01",
-			"password": "password",
-			"name": "Backupserver 1",
+			"username": "node02",
+			"name": "HKBN 节点",
 			"type": "Virtual Server",
-			"host": "No",
+			"host": "GenericVPSHost123",
 			"location": "Switzerland",
-			"disabled": false
+			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
-			"username": "hidden",
-			"password": "password",
-			"name": "Secret",
+			"disabled": true,
+			"username": "node03",
+			"name": "PCCW 节点",
 			"type": "Nothing",
-			"host": "No",
+			"host": "Noone",
 			"location": "Nowhere",
-			"disabled": true
+			"password": "thanks doge"
 		},
 		{
-			"username": "butt",
-			"password": "password"，
-			"name": "Butt",
+			"username": "node04",
+			"name": "GIA 节点",
 			"type": "Cloud Server",
-			"host": "No",
+			"host": "God",
 			"location": "Heaven??!",
-			"disabled": false
+			"password": "YoJOgLatMCYOqeq2h1UQ"
 		}
 	]
 }
