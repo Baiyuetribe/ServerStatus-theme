@@ -2,35 +2,33 @@
 	[
 		{
 			"username": "node01",
-			"name": "IPLC 节点",
-			"type": "类型",
-			"host": "主机",
-			"location": "China",
+			"host": "IPLC 专线",			
+			"type": "备注说明：主服务器",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
 			"username": "node02",
-			"name": "HKBN 节点",
-			"type": "Virtual Server",
-			"host": "GenericVPSHost123",
-			"location": "Switzerland",
+			"host": "HKT 节点",			
+			"type": "备注说明：XXXX",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
 			"disabled": true,
 			"username": "node03",
-			"name": "PCCW 节点",
-			"type": "Nothing",
-			"host": "Noone",
-			"location": "Nowhere",
-			"password": "thanks doge"
+			"host": "HKBN 节点",			
+			"type": "XXXX",
+			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
+			"username": "node02",
+			"host": "GIA 节点",			
+			"type": "XXX",
+			"password": "YoJOgLatMCYOqeq2h1UQ"
+		},		
+		{
 			"username": "node04",
-			"name": "GIA 节点",
-			"type": "Cloud Server",
-			"host": "God",
-			"location": "Heaven??!",
+			"host": "PCCW 节点",			
+			"type": "XXX",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		}
 	]
