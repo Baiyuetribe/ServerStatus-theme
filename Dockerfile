@@ -12,7 +12,7 @@ RUN apt update && apt-get install --no-install-recommends --no-install-suggests 
     && cd /ServerStatus-theme-dev/server && make \
     && apt-get remove --purge --auto-remove -y gcc g++ make wget unzip && rm -rf /var/lib/apt/lists/*
 
-EXPOSE 80 3561
+EXPOSE 80 2522
 
 RUN chmod +x /ServerStatus-theme-dev/entrypoint.sh
 
