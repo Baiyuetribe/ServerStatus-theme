@@ -14,7 +14,7 @@ fi
 nohup /etc/init.d/nginx start && /ServerStatus-theme-dev/server/sergate --config=/ServerStatus-theme-dev/server/config.json --port=2522 --web-dir=/usr/share/nginx/html
 
 
-/etc/init.d/nginx start 
+/etc/init.d/nginx start
 nohup /ServerStatus-theme-dev/server/sergate --config=/ServerStatus-theme-dev/server/config.json --port=2522 --web-dir=/usr/share/nginx/html
 
 
