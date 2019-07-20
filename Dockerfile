@@ -2,18 +2,18 @@ FROM nginx:latest
 
 MAINTAINER azure https://baiyue.one
 
-ARG SOURCE=https://github.com/91yun/ServerStatus
+ARG SOURCE=https://github.com/Baiyuetribe/ServerStatus-theme/archive/dev.zip
 
 RUN apt update && apt-get install --no-install-recommends --no-install-suggests -y \
-    gcc g++ make git \
-    && git clone -b dev ${SOURCE} \
-    && cp -rf /ServerStatus/web/* /usr/share/nginx/html/ \
-    && rm -rf /ServerStatus/clients/* \
-    && cd /ServerStatus/server && make \
-    && apt-get remove --purge --auto-remove -y gcc g++ make git && rm -rf /var/lib/apt/lists/*
+    gcc g++ make wget unzip \
+    && wget --no-check-certificate ${SOURCE} && unzip dev.zip \
+    && cp -rf /ServerStatus-theme-dev/web/* /usr/share/nginx/html/ \
+    && rm -rf /ServerStatus-theme-dev/clients/* dev.zip \
+    && cd /ServerStatus-theme-dev/server && make \
+    && apt-get remove --purge --auto-remove -y gcc g++ make wget unzip && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80 3561
 
-RUN chmod +x /ServerStatus/entrypoint.sh
+RUN chmod +x /ServerStatus-theme-dev/entrypoint.sh
 
-ENTRYPOINT ["/ServerStatus/entrypoint.sh"]
+ENTRYPOINT ["/ServerStatus-theme-dev/entrypoint.sh"]
