@@ -4,12 +4,16 @@
 			"username": "node01",
 			"host": "IPLC 专线",			
 			"type": "备注说明：主服务器",
+			"name": "Secret",
+			"location": "Nowhere",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
 			"username": "node02",
 			"host": "HKT 节点",			
 			"type": "备注说明：XXXX",
+			"name": "Secret",
+			"location": "Nowhere",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
@@ -17,18 +21,24 @@
 			"username": "node03",
 			"host": "HKBN 节点",			
 			"type": "XXXX",
+			"name": "Secret",
+			"location": "Nowhere",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},
 		{
 			"username": "node02",
 			"host": "GIA 节点",			
 			"type": "XXX",
+			"name": "Secret",
+			"location": "Nowhere",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		},		
 		{
 			"username": "node04",
 			"host": "PCCW 节点",			
 			"type": "XXX",
+			"name": "Secret",
+			"location": "Nowhere",
 			"password": "YoJOgLatMCYOqeq2h1UQ"
 		}
 	]
