@@ -5,7 +5,7 @@
 # 支持操作系统： Linux, Windows, OSX, Sun Solaris, FreeBSD, OpenBSD and NetBSD, both 32-bit and 64-bit architectures
 
 SERVER = "${SERVER}" #前端ip地址
-PORT = "${PORT}"
+PORT = ${PORT}
 USER = "${USER}" #改成唯一的客户端用户名，服务器根据这个字段判断是哪台服务器
 PASSWORD = "${PASSWORD}" #可自定义，前提是与前端一致
 
